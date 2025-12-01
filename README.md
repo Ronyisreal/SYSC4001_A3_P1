@@ -346,8 +346,8 @@ g++ -g -O0 -I . -v -o bin/interrupts_EP interrupts_101116888_101276841_EP.cpp
 
 ### Scheduler Implementation (1.5 marks):
 - [x] EP: 0.5 marks - COMPLETE
-- [ ] RR: 0.5 marks - PENDING
-- [ ] EP_RR: 0.5 marks - PENDING
+- [ ] RR: 0.5 marks - COMPLETE
+- [ ] EP_RR: 0.5 marks - COMPLETE
 
 ### Simulation Execution (1 mark):
 - [ ] Run 20+ scenarios
