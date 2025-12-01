@@ -333,12 +333,12 @@ g++ -g -O0 -I . -v -o bin/interrupts_EP interrupts_101116888_101276841_EP.cpp
 
 ## Next Steps
 
-1. ✅ **EP Scheduler** - COMPLETE
-2. ⏳ **RR Scheduler** - TO IMPLEMENT
-3. ⏳ **EP_RR Scheduler** - TO IMPLEMENT
-4. ⏳ **Generate 20+ test scenarios**
-5. ⏳ **Run simulations and collect metrics**
-6. ⏳ **Write analysis report (2+ pages)**
+1.  **EP Scheduler** - COMPLETE
+2.  **RR Scheduler** - TO IMPLEMENT
+3.  **EP_RR Scheduler** - TO IMPLEMENT
+4.  **Generate 20+ test scenarios**
+5.  **Run simulations and collect metrics**
+6.  **Write analysis report (2+ pages)**
 
 ---
 
@@ -359,11 +359,6 @@ g++ -g -O0 -I . -v -o bin/interrupts_EP interrupts_101116888_101276841_EP.cpp
 - [ ] Memory analysis in report
 
 ---
-
-## Contact
-
-**Rounak Mukherjee** - 101116888
-**Timur Grigoryev** - 101276841
 
 SYSC4001 - Operating Systems
 Assignment 3 Part 1
