@@ -1,0 +1,67 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 |  1 |       NEW |     READY |
+|                 0 |  1 |     READY |   RUNNING |
+|                50 |  2 |       NEW |     READY |
+|               100 |  3 |       NEW |     READY |
+|               150 |  4 |       NEW |     READY |
+|               200 |  5 |       NEW |     READY |
+|               800 |  1 |   RUNNING |TERMINATED |
+|               800 |  5 |     READY |   RUNNING |
+|               860 |  5 |   RUNNING |   WAITING |
+|               860 | -1 |   RUNNING |TERMINATED |
+|               860 |  4 |     READY |   RUNNING |
+|               885 |  5 |   WAITING |     READY |
+|               940 |  4 |   RUNNING |   WAITING |
+|               940 | -1 |   RUNNING |TERMINATED |
+|               940 |  5 |     READY |   RUNNING |
+|               970 |  4 |   WAITING |     READY |
+|              1000 |  5 |   RUNNING |   WAITING |
+|              1000 | -1 |   RUNNING |TERMINATED |
+|              1000 |  4 |     READY |   RUNNING |
+|              1025 |  5 |   WAITING |     READY |
+|              1080 |  4 |   RUNNING |   WAITING |
+|              1080 | -1 |   RUNNING |TERMINATED |
+|              1080 |  5 |     READY |   RUNNING |
+|              1110 |  4 |   WAITING |     READY |
+|              1140 |  5 |   RUNNING |   WAITING |
+|              1140 | -1 |   RUNNING |TERMINATED |
+|              1140 |  4 |     READY |   RUNNING |
+|              1165 |  5 |   WAITING |     READY |
+|              1220 |  4 |   RUNNING |   WAITING |
+|              1220 | -1 |   RUNNING |TERMINATED |
+|              1220 |  5 |     READY |   RUNNING |
+|              1250 |  4 |   WAITING |     READY |
+|              1280 |  5 |   RUNNING |   WAITING |
+|              1280 | -1 |   RUNNING |TERMINATED |
+|              1280 |  4 |     READY |   RUNNING |
+|              1305 |  5 |   WAITING |     READY |
+|              1360 |  4 |   RUNNING |   WAITING |
+|              1360 | -1 |   RUNNING |TERMINATED |
+|              1360 |  5 |     READY |   RUNNING |
+|              1390 |  4 |   WAITING |     READY |
+|              1420 |  5 |   RUNNING |TERMINATED |
+|              1420 |  4 |     READY |   RUNNING |
+|              1500 |  4 |   RUNNING |TERMINATED |
+|              1500 |  3 |     READY |   RUNNING |
+|              2100 |  3 |   RUNNING |TERMINATED |
+|              2100 |  2 |     READY |   RUNNING |
+|              2200 |  2 |   RUNNING |   WAITING |
+|              2200 | -1 |   RUNNING |TERMINATED |
+|              2240 |  2 |   WAITING |     READY |
+|              2240 |  2 |     READY |   RUNNING |
+|              2340 |  2 |   RUNNING |   WAITING |
+|              2340 | -1 |   RUNNING |TERMINATED |
+|              2380 |  2 |   WAITING |     READY |
+|              2380 |  2 |     READY |   RUNNING |
+|              2480 |  2 |   RUNNING |   WAITING |
+|              2480 | -1 |   RUNNING |TERMINATED |
+|              2520 |  2 |   WAITING |     READY |
+|              2520 |  2 |     READY |   RUNNING |
+|              2620 |  2 |   RUNNING |   WAITING |
+|              2620 | -1 |   RUNNING |TERMINATED |
+|              2660 |  2 |   WAITING |     READY |
+|              2660 |  2 |     READY |   RUNNING |
+|              2760 |  2 |   RUNNING |TERMINATED |
++------------------------------------------------+
